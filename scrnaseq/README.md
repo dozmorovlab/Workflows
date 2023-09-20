@@ -7,4 +7,4 @@
         - genomic.gtf
             - The appropriate annotation file.
     - Output:
-        - 
+        - Refer to [scrnaseq-output](https://nf-co.re/scrnaseq/2.4.0/docs/output/).
