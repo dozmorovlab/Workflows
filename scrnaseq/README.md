@@ -1,0 +1,10 @@
+- [scrnaseq.sh](scrnaseq.sh): A script to use the Nextflow pipeline [scrnaseq](https://nf-co.re/scrnaseq/). This script was made to run on a Sun Grid Engine cluster, however, it can be modified and informative for use on other clusters or on a conventional computer. If you use nf-core/scrnaseq for your analysis, please cite it using this [doi](https://doi.org/10.5281/zenodo.3568187).
+    - Input:
+        - samplesheet.csv
+            - Refer to [scrnaseq](https://nf-co.re/scrnaseq/) for the proper creation of this samplesheet.
+        - genomic.fna
+            - The appropriate reference file.
+        - genomic.gtf
+            - The appropriate annotation file.
+    - Output:
+        - 
