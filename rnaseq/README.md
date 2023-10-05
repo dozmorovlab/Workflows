@@ -27,7 +27,6 @@ nextflow run nf-core/rnaseq
     --outdir /path/to/rnaseq_output \
     -profile singularity # or docker \
     --fasta /path/to/GRCh38p.14/ncbi_dataset/data/GCF_000001405.40/GCF_000001405.40_GRCh38.p14_genomic.fna \
-    --gtf /path/to/GRCh38p.14/ncbi_dataset/data/GCF_000001405.40/genomic.gtf \
     --gff /path/to/GRCh38p.14/ncbi_dataset/data/GCF_000001405.40/genomic.gff \
     --aligner star_rsem \
     -resume
